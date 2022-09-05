@@ -1,14 +1,9 @@
 import React, { StrictMode } from "react";
 import ReactDOM from 'react-dom/client';
-
-function App(){
-    return(
-        <h1>Hola Mundo</h1>
-    )
-}
+import { AppRouter } from "./router/AppRouter";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <App />
+        <AppRouter />
     </StrictMode>
 )
